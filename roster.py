@@ -8,7 +8,9 @@ players = ['Claude', 'Brown', 'Cadeau', 'Davis',
             'Tyson', 'Davis', 'Trimble', 'Powell',
               'Jackson', 'Washington', 'Hawkins', 'Holbrook',
                 'Lubin', "Withers", 'Mayo Jr.']
-data = pd.DataFrame(players)
+list = {"Last Name": players}
+
+data = pd.DataFrame(list)
 print(data)
 '''# Create the For loop
 for player in players:
