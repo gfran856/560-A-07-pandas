@@ -5,4 +5,6 @@ players = ['Claude', 'Brown', 'Cadeau', 'Davis',
             'Tyson', 'Davis', 'Trimble', 'Powell',
               'Jackson', 'Washington', 'Hawkins', 'Holbrook',
                 'Lubin', "Withers", 'Mayo Jr.']
-print(players)
+# Create the For loop
+for player in players:
+    print(players)
