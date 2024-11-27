@@ -12,7 +12,11 @@ player = {"Last Name": ['Claude', 'Brown', 'Cadeau', 'Davis', 'Tyson', 'Davis', 
           }
 
 data = pd.DataFrame(player)
+
+data['BMI'] = (data["Weight (pounds)"]/2.205)/((data["Height (inches)"]/39.37)**2)
+data['BMI Rounded'] = round(data['BMI'], 2)
 print(data)
 '''# Create the For loop
 for player in players:
     print(players)'''
+#data.to_csv('BMI.csv')
